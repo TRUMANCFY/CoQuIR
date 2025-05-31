@@ -33,8 +33,8 @@ pip install git+https://github.com/TRUMANCFY/mteb@main
 
 <h2 id="resources">Resources</h2>
 <code>CoQuIR</code> is public on <a href="https://huggingface.co/CoQuIR">Hugging Face 🤗</a>.
+<code>CoQuIR</code> considers different aspects of code quality, including <strong>correctness</strong>, <strong>efficiency</strong>, <strong>security</strong>, and <strong>maintainability</strong>.
 
-<code>CoQuIR</code> considers different aspects of code quality, including correcteness, efficiency, security, and maintainability.
 
 <p align="center">
   <img src="assets/example.png" alt="" width="700"/>
@@ -58,7 +58,7 @@ We inherit the original metrics for information retrieval tasks, i.e., Normalize
   <img src="assets/original_metrics.png" alt="" width="700"/>
 </p>
 
-To better model the quality-awareness of retrievers, we specifically design two quality-aware metrics, Pairwise Preference Accuracy (PPA) and Margin-based Ranking Score (MRS). We find even the top-performing models often fail to distinguish the code quality.
+To better model the quality-awareness of retrievers, we specifically design two quality-aware metrics, <strong>Pairwise Preference Accuracy (PPA)</strong> and <strong>Margin-based Ranking Score (MRS)</strong>. We find even the top-performing models often fail to distinguish the code quality.
 
 <p align="center">
   <img src="assets/quality_metrics.png" alt="" width="700"/>
