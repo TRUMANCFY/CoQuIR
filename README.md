@@ -33,7 +33,7 @@ pip install git+https://github.com/TRUMANCFY/mteb@main
 ```
 
 <h2 id="resources">Resources</h2>
-<code>CoQuIR</code> is public on \href{https://huggingface.co/CoQuIR}{Huggingface 🤗}.
+<code>CoQuIR</code> is public on \href{https://huggingface.co/CoQuIR}{Huggingface} 🤗.
 
 <code>CoQuIR</code> considers different aspects of code quality, including correcteness, efficiency, security, and maintainability.
 
@@ -48,7 +48,9 @@ As a multilingual benchmark, <code>CoQuIR</code> includes codes in 11 programing
 </p>
 
 <h2 id="eval">Evaluation</h2>
-We benchmark 23 retrieval models, including both open-source and proprietary models. The script and the complete evaluation results are included in `evaluate_coquir.sh` and `preference_code_retrieval_evaluation.ipynb`.
+We benchmark 23 retrieval models, including both open-source and proprietary models. The script and the complete evaluation results are included in 
+\href{https://github.com/TRUMANCFY/CoQuIR/blob/main/evaluate_coquir.sh}{\texttt{evaluate\_coquir.sh}} and 
+\href{https://github.com/TRUMANCFY/CoQuIR/blob/main/preference_code_retrieval_evaluation.ipynb}{\texttt{preference\_code\_retrieval\_evaluation.ipynb}}.
 
 We inherit the original metrics for information retrieval tasks, i.e., Normalized Discounted Cumulative Gain@10 (NDCG@10) and Mean Reciprocal Rank@10 (MRR@10).
 
