@@ -61,7 +61,7 @@ We inherit the original metrics for information retrieval tasks, i.e., Normalize
 To better model the quality-awareness of retrievers, we specifically design two quality-aware metrics, <strong>Pairwise Preference Accuracy (PPA)</strong> and <strong>Margin-based Ranking Score (MRS)</strong>. We find even the top-performing models often fail to distinguish the code quality.
 
 <p align="center">
-  <img src="assets/quality_metrics.png" alt="" width="700"/>
+  <img src="assets/quality_aware_metrics.png" alt="" width="700"/>
 </p>
 
 
