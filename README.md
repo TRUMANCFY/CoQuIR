@@ -11,7 +11,7 @@
 </h4>
 
 
-TL;DR: Code quality, a fundamental propert , has been largely overlooked by modern retrievers.
+<strong>TL;DR: Code quality, a fundamental propert of software, has been largely overlooked by modern retrievers.</strong>
 
 > **Abstract:**
 > Code retrieval is essential in modern software development as it boosts reuse and speeds up debugging. However, current benchmarks primarily emphasize functional relevance while neglecting critical dimensions of software quality. Motivated by this gap, we introduce CoQuIR, the first large-scale, multilingual benchmark specifically designed to evaluate quality-aware code retrieval across four critical dimensions: correctness, efficiency, security, and maintainability. CoQuIR includes fine-grained quality annotations over 42,725 queries and 134,907 code snippets in 11 programming languages and is accompanied by two quality-centric evaluation metrics (Pairwise Preference Accuracy and Margin-based Ranking Score). Based on CoQuIR, we benchmark 23 retrieval models, spanning open-source and proprietary models, and find that even top-performing models often fail to distinguish buggy or insecure code from their robust counterparts. Furthermore, we conduct preliminary investigations into methods for explicitly training retrievers to recognize code quality. Through synthetic datasets, we demonstrate promising improvements in quality-aware metrics across different models without compromising semantic relevance. Downstream code generation performance further validates the effectiveness of our approach. Our work underscores the importance of incorporating quality signals into code retrieval systems, establishing a foundation for more trustworthy software development tools.
