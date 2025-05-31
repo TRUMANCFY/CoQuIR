@@ -5,7 +5,6 @@
         <a href="">📑 Paper</a> |
         <a href="#installation">🔧 Installation</a> |
         <a href="#resources">📚 Resources</a> |
-        <a href="#training">🚀 Training</a> |
         <a href="#eval"> 📊 Evaluation</a> |
         <a href="#citing">📄 Citing</a>
     </p>
