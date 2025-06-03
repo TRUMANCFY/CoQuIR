@@ -30,7 +30,7 @@ conda env create -f environment.yml
 Specifically, we include <code>CoQuIR</code> in`mteb` library:
 
 ```
-pip uninstall transformers
+pip uninstall mteb
 pip install git+https://github.com/TRUMANCFY/mteb@main
 ```
 
